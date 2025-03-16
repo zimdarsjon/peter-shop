@@ -13,7 +13,7 @@ const { menuItems} = storeToRefs(menuStore);
 <template>
   <DynamicDialog />
   <div class="card">
-    <Menubar :model="menuItems" />
+    <Menubar :model="menuItems"/>
   </div>
   <main>
     <RouterView />
